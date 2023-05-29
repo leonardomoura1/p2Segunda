@@ -22,7 +22,7 @@ export default function Welcome({ route, navigation }) {
       <View style={{justifyContent: 'center', alignItems: 'center' }}>
         <Text style={styles.h1}>Bem-vindo, {email}!</Text>
         <TouchableOpacity onPress={handleLogout} style={styles.buttonDeslogar}>
-          <Text style={styles.buttonDeslogarText}>Deslogar</Text>
+          <Text style={styles.buttonDeslogarText}>Sair</Text>
         </TouchableOpacity>
         <Text style={styles.h2}>Vídeos Fodas Abaixo</Text>
         <iframe
