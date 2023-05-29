@@ -33,7 +33,7 @@ export default function Auth() {
           }else {
             setErrorMessage('Erro ao fazer login. Tente novamente mais tarde.');
           }
-          console.log(error);
+          /* console.log(error); */
         });
     } else {
       // Realiza o cadastro
@@ -53,7 +53,7 @@ export default function Auth() {
           } else {
             setErrorMessage('Erro ao cadastrar. Tente novamente mais tarde.');
           }
-          console.log(error);
+          /* console.log(error); */
         });
     }
   };

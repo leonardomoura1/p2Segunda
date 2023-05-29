@@ -14,7 +14,7 @@ export default function Welcome({ route, navigation }) {
         })
         .catch((error) => {
           // Trata o erro, se necessário
-          console.log(error);
+          /* console.log(error); */
         });
     };
   
